@@ -11,7 +11,7 @@ export default {
     HelloWorld
   },
   created() {
-    const numbigfive = Math.floor(Math.random() * 10)
+    const numbigfive = Math.floor(Math.random() * 12)
 
     location.href = [
       'https://www.surveycake.com/s/DnQGz',
