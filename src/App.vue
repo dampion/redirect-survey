@@ -11,22 +11,23 @@ export default {
     HelloWorld
   },
   created() {
-    const numbigfive = Math.floor(Math.random() * 12)
+    const list = [
+      'https://www.surveycake.com/s/laa7x',
+      'https://www.surveycake.com/s/8llvY',
+      'https://www.surveycake.com/s/YxxB2',
+      'https://www.surveycake.com/s/0PP6L',
+      'https://www.surveycake.com/s/8llv7',
+      'https://www.surveycake.com/s/YxxBZ',
+      'https://www.surveycake.com/s/9BBw7',
+      'https://www.surveycake.com/s/4MMpg',
+      'https://www.surveycake.com/s/LzzkP',
+      'https://www.surveycake.com/s/VrrDy',
+      'https://www.surveycake.com/s/z11B2',
+      'https://www.surveycake.com/s/6MMK7',
+    ]
+    const numbigfive = Math.floor(Math.random() * list.length)
 
-    location.href = [
-      'https://www.surveycake.com/s/DnQGz',
-      'https://www.surveycake.com/s/laXqr',
-      'https://www.surveycake.com/s/naWXm',
-      'https://www.surveycake.com/s/aLo7p',
-      'https://www.surveycake.com/s/B2XyV',
-      'https://www.surveycake.com/s/paWmV',
-      'https://www.surveycake.com/s/16bN1',
-      'https://www.surveycake.com/s/DnQA7',
-      'https://www.surveycake.com/s/gobLq',
-      'https://www.surveycake.com/s/G29XK',
-      'https://www.surveycake.com/s/RN3a8',
-      'https://www.surveycake.com/s/eA4bm',
-    ][numbigfive]
+    location.href = list[numbigfive]
   },
 }
 </script>
